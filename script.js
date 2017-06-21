@@ -10,7 +10,8 @@ ReactDOM.render(
     React.createElement(
       "div",
       { className: "demo" },
-      "Hello React"
+      "Hello React",
+      React.createElement("input")
     ),
     reactContainer
   );
